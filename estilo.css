@@ -1,0 +1,65 @@
+body{
+    background-color: rgb(194, 220, 243);
+}
+
+.botao{
+    background-color: aquamarine;
+    border-radius: 25px;
+    padding: 20px;
+    display: inline-block;
+}
+
+.botao:hover{
+    padding: 30px;
+    background-color: rgb(16, 238, 164);
+}
+.borda{
+    border: 2px dashed blue;
+    padding: 25px;
+    margin: 5px;
+}
+.hover{
+    border: 2px dashed red;
+}
+.focus{
+    border: 2px dashed green;
+}
+.focus input{
+    padding: 15px;
+    border-radius: 25px;
+}
+.focus input:focus{
+    border: 2px solid pink;
+    outline: none;
+}
+
+.input input{
+    outline: none;
+    border: 2px solid blue;
+    padding: 15px;
+    border-radius: 25px;
+}
+
+.input input:valid{
+    border: 2px solid rgb(39, 179, 39);
+    outline: none;
+}
+
+.first-line{
+    border: 2px dashed rgb(255, 81, 0);
+}
+
+.first-line p::first-line{
+    color: red;
+    font-size: 1.2em;
+}
+
+.first-line p::first-letter{
+    color: rgb(13, 114, 13);
+    font-size: 1.4em;
+}
+
+.first-line p::after{
+    content: '...';
+    color: rgb(0, 140, 255);
+}
